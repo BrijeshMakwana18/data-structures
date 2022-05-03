@@ -46,3 +46,11 @@ const RecursiveFiboTwo = (n) => {
 console.log("Fibonacci Normal approach ", NormalFibo(10));
 console.log("Fibonacci Recursive approach ", RecursiveFibo(10));
 console.log("Fibonacci Recursive approach two", RecursiveFiboTwo(10));
+
+//Factorial
+const Factorial = (n) => {
+  if (n === 0 || n === 1) return 1;
+  return n * Factorial(n - 1);
+};
+
+console.log("Factorial ", Factorial(5));
